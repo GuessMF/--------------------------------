@@ -33,7 +33,12 @@
     >
       <div class="container">
         <a class="logo text-uppercase" href="index-1.html">
-          <img src="images/logo-dark.png" alt="" />
+          <img
+            src="images/new-logo-2.jpg"
+            class="img-fluid"
+            width="40px"
+            alt=""
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -55,10 +60,10 @@
               <a href="#about" class="nav-link">О системе</a>
             </li>
             <li class="nav-item">
-              <a href="#projects" class="nav-link">Попробовать</a>
+              <a href="#team" class="nav-link">Попробовать</a>
             </li>
             <li class="nav-item">
-              <a href="#support" class="nav-link">Поддержка</a>
+              <a href="#about-us" class="nav-link">Поддержка</a>
             </li>
             <!-- <li class="nav-item">
               <a href="#team" class="nav-link">Team</a>
@@ -71,6 +76,9 @@
     <section class="hero-agency" id="home">
       <div class="container">
         <div class="row">
+          <div class="col-lg-6">
+            <img src="images/agency/main.png" alt="" class="img-fluid" />
+          </div>
           <div class="col-lg-6">
             <!-- <div class="hero-title-badge mb-3"><span class="text-primary">70% off </span> for first 3 months</div> -->
             <h1 class="hero-title fw-bold mb-4">
@@ -99,59 +107,10 @@
               ></div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <img src="images/agency/hero-img.png" alt="" class="img-fluid" />
-          </div>
         </div>
-
-        <!-- <div class="row mt-5">
-          <div class="col-12">
-            <ul class="list-inline text-center mt-5 pt-5">
-              <li class="list-inline-item my-4 mx-3 mx-xl-4 px-xl-2">
-                <img
-                  src="images/agency/brand-logo/dribbble.png"
-                  alt=""
-                  class=""
-                  height="38"
-                />
-              </li>
-              <li class="list-inline-item my-4 mx-3 mx-xl-4 px-xl-2">
-                <img
-                  src="images/agency/brand-logo/envato.png"
-                  alt=""
-                  class=""
-                  height="38"
-                />
-              </li>
-              <li class="list-inline-item my-4 mx-3 mx-xl-4 px-xl-2">
-                <img
-                  src="images/agency/brand-logo/insta.png"
-                  alt=""
-                  class=""
-                  height="38"
-                />
-              </li>
-              <li class="list-inline-item my-4 mx-3 mx-xl-4 px-xl-2">
-                <img
-                  src="images/agency/brand-logo/bootstrap.png"
-                  alt=""
-                  class=""
-                  height="38"
-                />
-              </li>
-              <li class="list-inline-item my-4 mx-3 mx-xl-4 px-xl-2">
-                <img
-                  src="images/agency/brand-logo/jquery.png"
-                  alt=""
-                  class=""
-                  height="38"
-                />
-              </li>
-            </ul>
-          </div>
-        </div> -->
       </div>
     </section>
+
     <section class="section bg-light" id="about">
       <div class="container">
         <div class="row justify-content-center mb-5">
@@ -161,11 +120,17 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="d-flex flex-column">
           <div class="col-md-4">
             <div class="mt-5">
               <div class="about-icon ms-3">
-                <img src="images/agency/icon/1.png" alt="" class="img-fluid" />
+                <!-- <img src="images/agency/icon/1.png" alt="" class="img-fluid" /> -->
+                <img
+                  src="images/test/222.png"
+                  class="img-fluid"
+                  alt=""
+                  srcset=""
+                />
               </div>
               <h5 class="fs-22 mt-4 pt-3 mb-3">Strategy & Research</h5>
               <p class="text-muted">
@@ -177,10 +142,16 @@
               ></a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 align-self-end">
             <div class="mt-5">
               <div class="about-icon ms-3">
-                <img src="images/agency/icon/2.png" alt="" class="img-fluid" />
+                <!-- <img src="images/agency/icon/2.png" alt="" class="img-fluid" /> -->
+                <img
+                  src="images/test/333.png"
+                  class="img-fluid"
+                  alt=""
+                  srcset=""
+                />
               </div>
               <h5 class="fs-22 mt-4 pt-3 mb-3">Design & Development</h5>
               <p class="text-muted">
@@ -195,7 +166,13 @@
           <div class="col-md-4">
             <div class="mt-5">
               <div class="about-icon ms-3">
-                <img src="images/agency/icon/3.png" alt="" class="img-fluid" />
+                <!-- <img src="images/agency/icon/3.png" alt="" class="img-fluid" /> -->
+                <img
+                  src="images/test/444.png"
+                  class="img-fluid"
+                  alt=""
+                  srcset=""
+                />
               </div>
               <h5 class="fs-22 mt-4 pt-3 mb-3">Management & Marketing</h5>
               <p class="text-muted">
@@ -210,345 +187,8 @@
         </div>
       </div>
     </section>
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-8 col-lg-6 text-center">
-            <h6 class="subtitle">Our Projects</h6>
-            <h2 class="title">
-              A great design brings thousands of great results.
-            </h2>
-          </div>
-        </div>
 
-        <div class="row">
-          <ul
-            class="col busi-container-filter categories-filter text-center"
-            id="filter"
-          >
-            <li>
-              <a
-                class="categories tab-active active"
-                onclick="filterSelection('all')"
-                >All Items</a
-              >
-            </li>
-            <li>
-              <a
-                class="categories tab-active"
-                onclick="filterSelection('branding')"
-                >Design</a
-              >
-            </li>
-            <li>
-              <a
-                class="categories tab-active"
-                onclick="filterSelection('designing')"
-                >Creative</a
-              >
-            </li>
-            <li>
-              <a
-                class="categories tab-active"
-                onclick="filterSelection('photography')"
-                >Digital</a
-              >
-            </li>
-            <li>
-              <a
-                class="categories tab-active"
-                onclick="filterSelection('development')"
-                >Photography</a
-              >
-            </li>
-          </ul>
-        </div>
-        <!-- Gallary -->
-
-        <!-- <div class="row justify-content-center">
-          <div
-            class="col-md-6 col-xl-4 filter-box branding designing development"
-          >
-            <div class="card item-box rounded mt-4 overflow-hidden">
-              <div class="position-relative">
-                <img
-                  class="item-container img-fluid"
-                  src="images/agency/project-img/1.jpg"
-                  alt="1"
-                />
-                <div
-                  class="item-mask mfp-image"
-                  data-src="images/agency/project-img/1.jpg"
-                  data-gallery="myGal"
-                ></div>
-              </div>
-              <div class="card-body">
-                <h5 class="fs-18 mb-1">The Language of Designs</h5>
-                <p class="text-muted mb-0">Design</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 filter-box photography">
-            <div class="card item-box rounded mt-4">
-              <div class="position-relative">
-                <img
-                  class="item-container img-fluid rounded"
-                  src="images/agency/project-img/2.jpg"
-                  alt="2"
-                />
-                <div
-                  class="item-mask mfp-image"
-                  data-src="images/agency/project-img/2.jpg"
-                  data-gallery="myGal"
-                ></div>
-              </div>
-              <div class="card-body">
-                <h5 class="fs-18 mb-1">The Language of Designs</h5>
-                <p class="text-muted mb-0">Design</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 filter-box branding development">
-            <div class="card item-box rounded mt-4">
-              <div class="position-relative">
-                <img
-                  class="item-container img-fluid rounded"
-                  src="images/agency/project-img/3.jpg"
-                  alt="3"
-                />
-                <div
-                  class="item-mask mfp-image"
-                  data-src="images/agency/project-img/3.jpg"
-                  data-gallery="myGal"
-                ></div>
-              </div>
-              <div class="card-body">
-                <h5 class="fs-18 mb-1">The Language of Designs</h5>
-                <p class="text-muted mb-0">Design</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 filter-box branding designing">
-            <div class="card item-box rounded mt-4">
-              <div class="position-relative">
-                <img
-                  class="item-container img-fluid rounded"
-                  src="images/agency/project-img/4.jpg"
-                  alt="4"
-                />
-                <div
-                  class="item-mask mfp-image"
-                  data-src="images/agency/project-img/4.jpg"
-                  data-gallery="myGal"
-                ></div>
-              </div>
-              <div class="card-body">
-                <h5 class="fs-18 mb-1">The Language of Designs</h5>
-                <p class="text-muted mb-0">Design</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 filter-box branding designing">
-            <div class="card item-box rounded mt-4">
-              <div class="position-relative">
-                <img
-                  class="item-container img-fluid rounded"
-                  src="images/agency/project-img/5.jpg"
-                  alt="5"
-                />
-                <div
-                  class="item-mask mfp-image"
-                  data-src="images/agency/project-img/5.jpg"
-                  data-gallery="myGal"
-                ></div>
-              </div>
-              <div class="card-body">
-                <h5 class="fs-18 mb-1">The Language of Designs</h5>
-                <p class="text-muted mb-0">Design</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 filter-box photography">
-            <div class="card item-box rounded mt-4">
-              <div class="position-relative">
-                <img
-                  class="item-container img-fluid rounded"
-                  src="images/agency/project-img/6.jpg"
-                  alt="6"
-                />
-                <div
-                  class="item-mask mfp-image"
-                  data-src="images/agency/project-img/6.jpg"
-                  data-gallery="myGal"
-                ></div>
-              </div>
-              <div class="card-body">
-                <h5 class="fs-18 mb-1">The Language of Designs</h5>
-                <p class="text-muted mb-0">Design</p>
-              </div>
-            </div>
-          </div>
-        </div> -->
-      </div>
-    </section>
-
-    <!-- Projects end -->
-
-    <!-- Testimonials start -->
-    <!-- <section class="section testi-bg" id="testimonial">
-      <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-8 col-lg-6 text-center">
-            <h6 class="subtitle text-dark">Testimonial</h6>
-            <h2 class="title">Client Feedback</h2>
-            <p class="text-muted">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut consequuntur magni dolores.
-            </p>
-          </div>
-        </div>
-
-        <div class="row testi-row">
-          <div class="col-12">
-            <!-- Swiper -->
-    <!-- <div class="clients-slider">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="card shadow-lg">
-                    <div class="card-body p-4">
-                      <img
-                        src="images/users/user-1.jpg"
-                        alt=""
-                        class="rounded-circle shadow-lg"
-                        width="60"
-                      />
-                      <h5 class="my-4 pt-2 fs-18 lh-base">
-                        " Excellent support for a tricky issue related to our
-                        customization of the template."
-                      </h5>
-
-                      <h6 class="mb-0">Brightlight books</h6>
-                      <p class="mb-0">Ubold Customer</p>
-                      <div class="position-absolute bottom-0 end-0">
-                        <img src="images/agency/quote.png" alt="" height="45" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="card shadow-lg">
-                    <div class="card-body p-4">
-                      <img
-                        src="images/users/user-2.jpg"
-                        alt=""
-                        class="rounded-circle shadow-lg"
-                        width="60"
-                      />
-                      <h5 class="my-4 pt-2 fs-18 lh-base">
-                        " This kit provides many options which I can you use
-                        everyday. It's great work.”
-                      </h5>
-
-                      <h6 class="mb-0">Echineo</h6>
-                      <p class="mb-0">Ubold Customer</p>
-                      <div class="position-absolute bottom-0 end-0">
-                        <img src="images/agency/quote.png" alt="" height="45" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="card shadow-lg">
-                    <div class="card-body p-4">
-                      <img
-                        src="images/users/user-3.jpg"
-                        alt=""
-                        class="rounded-circle shadow-lg"
-                        width="60"
-                      />
-                      <h5 class="my-4 pt-2 fs-18 lh-base">
-                        " This is a very extensive web app kit that can serve
-                        all kinds of purposes."
-                      </h5>
-
-                      <h6 class="mb-0">Aebra Schultz</h6>
-                      <p class="mb-0">Designer</p>
-                      <div class="position-absolute bottom-0 end-0">
-                        <img src="images/agency/quote.png" alt="" height="45" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Add Pagination -->
-    <!-- <div class="swiper-pagination"></div>
-            </div>  -->
-    <!-- </div>
-        </div> -->
-    <!-- </div>
-    </section>  -->
-    <!-- Testimonials end -->
-
-    <!-- counter start -->
-    <!-- <section class="section bg-light">
-      <div class="container">
-        <div class="row" id="counter">
-          <div class="col-sm-6 col-lg-3">
-            <div class="text-center my-3">
-              <div class="counter-content">
-                <h2><span class="counter_value" data-target="825">0</span></h2>
-                <p class="counter-name text-muted mb-0 text-uppercase">
-                  Global Brands
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-            <div class="text-center my-3">
-              <div class="counter-content">
-                <h2>
-                  <span class="counter_value" data-target="1800">0</span>+
-                </h2>
-                <p class="counter-name text-muted mb-0 text-uppercase">
-                  Happy Clients
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-            <div class="text-center my-3">
-              <div class="counter-content">
-                <h2><span class="counter_value" data-target="599">0</span>+</h2>
-                <p class="counter-name text-muted mb-0 text-uppercase">
-                  Creative Idea
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-            <div class="text-center my-3">
-              <div class="counter-content">
-                <h2>
-                  <span class="counter_value" data-target="2000">0</span>+
-                </h2>
-                <p class="counter-name text-muted mb-0 text-uppercase">
-                  User clients
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- counter end -->
-
-    <!-- team start -->
-    <!-- <section class="section" id="team">
+    <section class="section" id="team">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-8 col-lg-6 text-center">
@@ -561,50 +201,75 @@
           </div>
         </div>
 
-        <div class="row mb-5 pb-5">
-          <div class="col-sm-6 col-lg-3">
+        <div class="row row-eq-height justify-content-center mb-5">
+          <div class="col-lg-4 mb-4">
             <div class="team-bg rounded text-center">
-              <img src="images/agency/team/1.png" alt="" class="img-fluid" />
+              <!-- <img src="images/agency/team/1.png" alt="" class="img-fluid" /> -->
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+              <h5 class="fs-18 mb-0 mt-3">Adela White</h5>
+              <p class="text-muted fs-15 mb-4 mb-lg-0">Web Designer, USA</p>
             </div>
-            <h5 class="fs-18 mb-0 mt-3">Adela White</h5>
-            <p class="text-muted fs-15 mb-4 mb-lg-0">Web Designer, USA</p>
           </div>
-          <div class="col-sm-6 col-lg-3">
+          <div class="col-lg-4 mb-4">
             <div class="team-bg rounded text-center">
-              <img src="images/agency/team/2.png" alt="" class="img-fluid" />
+              <!-- <img src="images/agency/team/2.png" alt="" class="img-fluid" /> -->
+              <p>2</p>
+              <p>2</p>
+              <p>2</p>
+              <p>2</p>
+              <p>2</p>
+              <p>2</p>
+              <p>2</p>
+              <p>2</p>
+              <p>2</p>
+
+              <h5 class="fs-18 mb-0 mt-3">Ronnie Cooper</h5>
+              <p class="text-muted fs-15 mb-4 mb-lg-0">Graphic Designer, USA</p>
             </div>
-            <h5 class="fs-18 mb-0 mt-3">Ronnie Cooper</h5>
-            <p class="text-muted fs-15 mb-4 mb-lg-0">Graphic Designer, USA</p>
           </div>
-          <div class="col-sm-6 col-lg-3">
+          <div class="col-lg-4 mb-4">
             <div class="team-bg rounded text-center">
-              <img src="images/agency/team/3.png" alt="" class="img-fluid" />
+              <!-- <img src="images/agency/team/3.png" alt="" class="img-fluid" /> -->
+              <p>3</p>
+              <p>3</p>
+              <p>3</p>
+              <p>3</p>
+              <p>3</p>
+              <p>3</p>
+              <p>3</p>
+              <p>3</p>
+              <p>3</p>
+              <h5 class="fs-18 mb-0 mt-3">Helen Kim</h5>
+              <p class="text-muted fs-15 mb-4 mb-lg-0">Web Developer, USA</p>
             </div>
-            <h5 class="fs-18 mb-0 mt-3">Helen Kim</h5>
-            <p class="text-muted fs-15 mb-4 mb-lg-0">Web Developer, USA</p>
           </div>
-          <div class="col-sm-6 col-lg-3">
+          <!-- <div class="col-sm-6 col-lg-3">
             <div class="team-bg rounded text-center">
               <img src="images/agency/team/4.png" alt="" class="img-fluid" />
             </div>
             <h5 class="fs-18 mb-0 mt-3">Howard Shiflet</h5>
             <p class="text-muted fs-15 mb-4 mb-lg-0">PHP Developer, USA</p>
-          </div>
+          </div> -->
         </div>
       </div>
-    </section> -->
-    <!-- team end -->
+    </section>
 
-    <!-- footer & cta start -->
-    <section class="footer bg-light">
+    <section class="footer bg-light" id="about-us">
       <div class="cta-content">
         <div class="container">
-          <div class="row bg-dark cta-bg p-5 rounded align-items-center">
+          <div class="row bg-purp cta-bg p-5 rounded align-items-center">
             <div class="col-lg-6">
-              <h3 class="text-white fs-26 mb-3">Subscribe our newsletter</h3>
+              <h3 class="text-white fs-26 mb-3">Остались вопросы?</h3>
               <p class="text-white opacity-75 mb-4 mb-lg-0">
-                Et harum quidem rerum facilis est us et expedita distinctio am
-                libero tempore cum soluta nobis.
+                Оставьте свой E-mail и мы в скором времени свяжемся с Вами.
               </p>
             </div>
             <div class="col-lg-5 offset-lg-1">
@@ -617,7 +282,7 @@
                   placeholder="Enter Email Address"
                 />
                 <a href="javascript:void(0);" class="btn btn-primary form-btn"
-                  >Get Access</a
+                  >Отправить</a
                 >
               </div>
             </div>
@@ -757,9 +422,7 @@
         </div>
       </div>
     </section>
-    <!-- footer & cta end -->
 
-    <!-- Back to top -->
     <a
       href="#"
       onclick="topFunction()"
