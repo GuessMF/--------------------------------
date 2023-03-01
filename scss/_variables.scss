@@ -17,11 +17,11 @@ $gray-900: #343a40;
 $black: #000;
 
 $blue: #337ab7;
-$green: #1ce1ac;
-$cyan: #4bbbce;
+$green: #a71ec9;
+$cyan: #2d8331;
+$info: #a71ec9;
 $yallow: #ffc212;
 $red: #a71ec9;
-$purp: #a71ec9;
 
 $primary: $green;
 $secondary: $gray-700;
@@ -32,7 +32,6 @@ $danger: $red;
 $light: $gray-100;
 $dark: $gray-900;
 $white: $white;
-$purp: $purp;
 
 $theme-colors: (
   "primary": $primary,
@@ -44,8 +43,11 @@ $theme-colors: (
   "dark": $dark,
   "light": $light,
   "white": $white,
-  "purp": $purp,
 );
+$custom-colors: (
+  "cust": #900,
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
 
 $bg-overlay: #36404e;
 

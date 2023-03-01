@@ -20,46 +20,6 @@
 12.App Layout
 13.Default
 ************************/
-@import url("https://fonts.googleapis.com/css2?family=Mandali&display=swap");
-@font-face {
-  font-family: "Cerebri Sans,sans-serif";
-  src: url("../fonts/cerebrisans-light.eot");
-  src: local("Cerebri-sans Light"),
-    url("../fonts/cerebrisans-light.woff") format("woff");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Cerebri Sans,sans-serif";
-  src: url("../fonts/cerebrisans-regular.eot");
-  src: local("Cerebri-sans Regular"),
-    url("../fonts/cerebrisans-regular.woff") format("woff");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Cerebri Sans,sans-serif";
-  src: url("../fonts/cerebrisans-medium.eot");
-  src: local("Cerebri-sans Medium"),
-    url("../fonts/cerebrisans-medium.woff") format("woff");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Cerebri Sans,sans-serif";
-  src: url("../fonts/cerebrisans-semibold.eot");
-  src: local("Cerebri-sans Semibold"),
-    url("../fonts/cerebrisans-semibold.woff") format("woff");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "Cerebri Sans,sans-serif";
-  src: url("../fonts/cerebrisans-bold.eot");
-  src: local("Cerebri-sans Bold"),
-    url("../fonts/cerebrisans-bold.woff") format("woff");
-  font-weight: 700;
-}
 
 .bg-primary {
   background-color: #1ce1ac !important;
@@ -215,7 +175,7 @@
 }
 
 body {
-  font-family: "Mandali", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #343a40;
   padding-right: 0 !important;
@@ -227,7 +187,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Cerebri Sans,sans-serif";
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -551,7 +511,7 @@ html {
   font-size: 16px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  font-family: "Mandali", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .btn.btn-sm {
@@ -655,8 +615,8 @@ html {
 }
 
 .btn.btn-outline-info {
-  border: 1px solid #4bbbce !important;
-  color: #4bbbce !important;
+  border: 1px solid #a02677 !important;
+  color: #a02677 !important;
 }
 
 .btn.btn-gradient-info {
@@ -664,10 +624,30 @@ html {
     linear,
     left top,
     right top,
-    from(#4bbbce),
-    to(#afe1e9)
+    from(#a02677),
+    to(#cf65c6)
   );
-  background: linear-gradient(to right, #4bbbce 0%, #afe1e9 100%);
+  background: linear-gradient(to right, #a02677 0%, #cf65c6 100%);
+  border: none;
+  color: #fff;
+  -webkit-box-shadow: 0 5px 20px rgba(52, 58, 64, 0.1);
+  box-shadow: 0 5px 20px rgba(52, 58, 64, 0.1);
+}
+
+.btn.btn-outline-purp {
+  border: 1px solid #a02677 !important;
+  color: #a02677 !important;
+}
+
+.btn.btn-gradient-purp {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#a02677),
+    to(#cf65c6)
+  );
+  background: linear-gradient(to right, #a5296d 0%, #d15ec7 100%);
   border: none;
   color: #fff;
   -webkit-box-shadow: 0 5px 20px rgba(52, 58, 64, 0.1);
@@ -1005,7 +985,7 @@ html {
   padding: 6px 0;
   margin: 0 20px;
   font-weight: 500;
-  font-family: "Mandali", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link:hover,

@@ -21,6 +21,18 @@
       type="text/css"
       href="css/materialdesignicons.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -88,9 +100,7 @@
               Система автоматизации рабочего процесса ваших специалистов
             </p>
             <div class="d-flex align-items-center mb-4 mb-lg-0">
-              <a
-                href="#projects"
-                class="btn btn-gradient-success rounded-pill me-4"
+              <a href="#team" class="btn btn-gradient-info rounded-pill me-4"
                 >Попробовать <i class="mdi mdi-chevron-right ms-1"></i
               ></a>
               <a href="#about" class="text-secondary d-flex align-items-center">
@@ -115,15 +125,20 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-8 col-lg-6 text-center">
-            <h6 class="subtitle">Что мы предлагаем</h6>
-            <h2 class="title">3 тэзиса о том что мы предлагаем</h2>
+            <h2 class="title">Что мы предлагаем</h2>
+
+            <p class="text-muted">
+              Наша система автоматизации рабочего процесса специалистов создана
+              специально для того чтобы обегчить контроль за посещениями
+              специалистов
+            </p>
           </div>
         </div>
 
-        <div class="d-flex flex-column">
-          <div class="col-md-4">
+        <div class="d-flex flex-column justify-content-center">
+          <div class="col-md-8 align-self-center mb-5">
             <div class="mt-5">
-              <div class="about-icon ms-3">
+              <div class="ms-3">
                 <!-- <img src="images/agency/icon/1.png" alt="" class="img-fluid" /> -->
                 <img
                   src="images/test/222.png"
@@ -132,19 +147,19 @@
                   srcset=""
                 />
               </div>
-              <h5 class="fs-22 mt-4 pt-3 mb-3">Strategy & Research</h5>
+              <h5 class="fs-22 mt-4 pt-3 mb-3 title">Быстрый учет клиентов</h5>
               <p class="text-muted">
-                Et harum quidem as rerum facilis us est et distinctio nam libero
-                temp soluta nobis esteligendi optio.
+                Ведите персонафицировный учет пациентов в удобном для Вас
+                формате.
               </p>
-              <a href="javascript:void(0);" class="text-danger"
+              <!-- <a href="javascript:void(0);" class="text-danger"
                 >More About <i class="mdi mdi-arrow-right fs-14 ms-1"></i
-              ></a>
+              ></a> -->
             </div>
           </div>
-          <div class="col-md-4 align-self-end">
+          <div class="col-md-8 align-self-center mb-5">
             <div class="mt-5">
-              <div class="about-icon ms-3">
+              <div class="ms-3">
                 <!-- <img src="images/agency/icon/2.png" alt="" class="img-fluid" /> -->
                 <img
                   src="images/test/333.png"
@@ -153,19 +168,19 @@
                   srcset=""
                 />
               </div>
-              <h5 class="fs-22 mt-4 pt-3 mb-3">Design & Development</h5>
+              <h5 class="fs-22 mt-4 pt-3 mb-3 title">Контроль посещений</h5>
               <p class="text-muted">
-                Et harum quidem as rerum facilis us est et distinctio nam libero
-                temp soluta nobis esteligendi optio.
+                Контролируйте работу специалистов по записанным пациентам, с
+                получением отчетов по каждому посещению.
               </p>
-              <a href="javascript:void(0);" class="text-danger"
+              <!-- <a href="javascript:void(0);" class="text-danger"
                 >More About <i class="mdi mdi-arrow-right fs-14 ms-1"></i
-              ></a>
+              ></a> -->
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-8 align-self-center mb-5">
             <div class="mt-5">
-              <div class="about-icon ms-3">
+              <div class="ms-3">
                 <!-- <img src="images/agency/icon/3.png" alt="" class="img-fluid" /> -->
                 <img
                   src="images/test/444.png"
@@ -174,14 +189,13 @@
                   srcset=""
                 />
               </div>
-              <h5 class="fs-22 mt-4 pt-3 mb-3">Management & Marketing</h5>
+              <h5 class="fs-22 mt-4 pt-3 mb-3 title">Электронная очередь</h5>
               <p class="text-muted">
-                Et harum quidem as rerum facilis us est et distinctio nam libero
-                temp soluta nobis esteligendi optio.
+                Организуйте удобную электронную очередь для своих посетителей.
               </p>
-              <a href="javascript:void(0);" class="text-danger"
+              <!-- <a href="javascript:void(0);" class="text-danger"
                 >More About <i class="mdi mdi-arrow-right fs-14 ms-1"></i
-              ></a>
+              ></a> -->
             </div>
           </div>
         </div>
@@ -202,53 +216,57 @@
         </div>
 
         <div class="row row-eq-height justify-content-center mb-5">
-          <div class="col-lg-4 mb-4">
-            <div class="team-bg rounded text-center">
+          <div class="col-lg-3 mb-4">
+            <div class="team-bg rounded text-center py-1">
               <!-- <img src="images/agency/team/1.png" alt="" class="img-fluid" /> -->
-              <p>1</p>
-              <p>1</p>
-              <p>1</p>
-              <p>1</p>
-              <p>1</p>
-              <p>1</p>
-              <p>1</p>
-              <p>1</p>
-              <p>1</p>
-              <h5 class="fs-18 mb-0 mt-3">Adela White</h5>
-              <p class="text-muted fs-15 mb-4 mb-lg-0">Web Designer, USA</p>
+              <h5 class="fs-18 title">Поддержка</h5>
+              <img
+                src="images/test/about-extra-2.png"
+                width="80%"
+                alt=""
+                srcset=""
+              />
+              <!-- <h5 class="fs-18 mb-0 mt-3">Поддержка</h5> -->
+              <p class="text-muted fs-15 mb-4 mb-lg-0 px-3 pb-2">
+                Не думайте о возможных проблемах работы системы -
+                компания-разработчик всегда на связи и поможет решить любой
+                вопрос.
+              </p>
             </div>
           </div>
           <div class="col-lg-4 mb-4">
-            <div class="team-bg rounded text-center">
+            <div class="team-bg rounded text-center py-1">
               <!-- <img src="images/agency/team/2.png" alt="" class="img-fluid" /> -->
-              <p>2</p>
-              <p>2</p>
-              <p>2</p>
-              <p>2</p>
-              <p>2</p>
-              <p>2</p>
-              <p>2</p>
-              <p>2</p>
-              <p>2</p>
-
-              <h5 class="fs-18 mb-0 mt-3">Ronnie Cooper</h5>
-              <p class="text-muted fs-15 mb-4 mb-lg-0">Graphic Designer, USA</p>
+              <h5 class="fs-18 title">Попробовать</h5>
+              <img
+                src="images/new-logo-3.png"
+                class="img-fluid m-3"
+                width="50%"
+                alt=""
+                srcset=""
+              />
+              <p class="text-muted fs-15 mb-4 mb-lg-0 px-3 pb-2">
+                Попробуйте поработать уже сейчас online в демонстрационной
+                версии.
+              </p>
             </div>
           </div>
-          <div class="col-lg-4 mb-4">
-            <div class="team-bg rounded text-center">
+          <div class="col-lg-3 mb-4">
+            <div class="team-bg rounded text-center py-1">
               <!-- <img src="images/agency/team/3.png" alt="" class="img-fluid" /> -->
-              <p>3</p>
-              <p>3</p>
-              <p>3</p>
-              <p>3</p>
-              <p>3</p>
-              <p>3</p>
-              <p>3</p>
-              <p>3</p>
-              <p>3</p>
-              <h5 class="fs-18 mb-0 mt-3">Helen Kim</h5>
-              <p class="text-muted fs-15 mb-4 mb-lg-0">Web Developer, USA</p>
+              <h5 class="fs-18 title">Забота</h5>
+              <img
+                src="images/test/about-extra-3.png"
+                class="my-4"
+                width="80%"
+                alt=""
+                srcset=""
+              />
+
+              <p class="text-muted fs-15 mb-4 mb-lg-0 px-3 pb-2">
+                Передайте заботу о Вашем сайте нам - мы сможем организовать
+                правильную работу по его наполнению и поддержанию.
+              </p>
             </div>
           </div>
           <!-- <div class="col-sm-6 col-lg-3">
@@ -262,8 +280,8 @@
       </div>
     </section>
 
-    <section class="footer bg-light" id="about-us">
-      <div class="cta-content">
+    <section class="footer bg-light">
+      <div class="cta-content" id="about-us">
         <div class="container">
           <div class="row bg-purp cta-bg p-5 rounded align-items-center">
             <div class="col-lg-6">
