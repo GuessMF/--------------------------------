@@ -1277,6 +1277,9 @@ html {
   color: #343a40;
   line-height: 1.25;
 }
+.about {
+  margin-top: 50px;
+}
 
 .about-icon {
   position: relative;
@@ -1410,12 +1413,35 @@ html {
   .hero-agency {
     padding: 100px 0 0px;
   }
+  .supp {
+    order: 1;
+  }
 }
 
 @media (max-width: 768px) {
   .hero-agency .hero-title {
     font-size: 48px !important;
   }
+}
+@media (max-width: 365px) {
+  .hero-agency .hero-title {
+    font-size: 35px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer .about {
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin-top: 0px; */
+  }
+  .footer .about .system {
+    align-self: flex-start;
+    margin-top: 30px;
+  }
+  /* .text-center {
+    text-align: left !important;
+  } */
 }
 
 .hero-2 {
